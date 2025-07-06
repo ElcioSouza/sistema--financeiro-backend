@@ -73,4 +73,3 @@ Crie um arquivo `.env` na raiz do projeto:
 ```env
 DATABASE_URL="file:./prisma/Carteirafinanceiro.db"
 JWT_SECRET="seu-segredo-aqui"
-npm run test:e2e
