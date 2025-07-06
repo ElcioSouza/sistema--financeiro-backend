@@ -73,23 +73,4 @@ Crie um arquivo `.env` na raiz do projeto:
 ```env
 DATABASE_URL="file:./prisma/Carteirafinanceiro.db"
 JWT_SECRET="seu-segredo-aqui"
-```
-
-## 🧪 Testes
-```bash
-# Testes unitários
-npm run test
-
-# Testes e2e
 npm run test:e2e
-```
-
-## 👥 Contribuição
-1. Faça o fork do projeto
-2. Crie uma branch para sua feature (`git checkout -b feature/nova-feature`)
-3. Commit suas mudanças (`git commit -m 'Adiciona nova feature'`)
-4. Push para a branch (`git push origin feature/nova-feature`)
-5. Abra um Pull Request
-
-## 📄 Licença
-Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
