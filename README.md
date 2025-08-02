@@ -56,4 +56,4 @@ $ npm run start:prod
 - `POST /transactions/reverse` - Estornar transação
 - `GET /transactions/history` - Histórico de transações
 
-**Nota:** Rotas de transações requerem autenticação JWT no header `Authorization: Bearer <token>`
+Rotas de transações requerem autenticação JWT no header `Authorization: Bearer <token>`
