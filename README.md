@@ -13,7 +13,7 @@ Este projeto utiliza as seguintes variáveis de ambiente. Crie um arquivo `.env`
 ```env
 # URL de conexão com o banco de dados
 DATABASE_URL="file:./NomeDaBaseDeDados.db"
-```
+``` 
 
 ### Configuração de Autenticação
 
