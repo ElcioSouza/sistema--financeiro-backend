@@ -42,3 +42,18 @@ $ npm run start:dev
 # production mode
 $ npm run start:prod
 ```
+
+## Endpoints
+
+### Autenticação
+- `POST /auth/login` - Login do usuário
+
+### Usuários
+- `POST /users` - Criar usuário
+
+### Transações
+- `POST /transactions/transfer` - Realizar transferência
+- `POST /transactions/reverse` - Estornar transação
+- `GET /transactions/history` - Histórico de transações
+
+**Nota:** Rotas de transações requerem autenticação JWT no header `Authorization: Bearer <token>`
